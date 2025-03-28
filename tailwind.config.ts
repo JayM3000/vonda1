@@ -11,6 +11,10 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        // Brand colors
+        "vondas-grey": "#333333",
+        "vondas-red": "#CE1141",
+        "vondas-black": "#000000",
       },
     },
   },
