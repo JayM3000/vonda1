@@ -12,13 +12,13 @@ const Testimonials = () => {
     {
       name: "Denise M.",
       title: "Newark Resident",
-      content: "VONDA'S KITCHEN feels like home, but with food that's at another level. The Chicken & Waffles are simply unmatched in Newark. Vonda and her team always make you feel like family.",
+      content: "VONDA&apos;S KITCHEN feels like home, but with food that&apos;s at another level. The Chicken & Waffles are simply unmatched in Newark. Vonda and her team always make you feel like family.",
       rating: 5
     },
     {
       name: "Marcus J.",
       title: "Food Blogger",
-      content: "I've tried soul food across the country, and VONDA'S KITCHEN stands among the best. The Shrimp & Grits has a depth of flavor that tells you it's made with care and tradition.",
+      content: "I&apos;ve tried soul food across the country, and VONDA&apos;S KITCHEN stands among the best. The Shrimp & Grits has a depth of flavor that tells you it&apos;s made with care and tradition.",
       rating: 5
     },
     {
@@ -29,7 +29,7 @@ const Testimonials = () => {
     {
       name: "Robert C.",
       title: "Business Traveler",
-      content: "Found this gem while on a work trip. The Beef Short Ribs melted in my mouth, and the staff's recommendations were spot on. Will be back every time I'm in Newark.",
+      content: "Found this gem while on a work trip. The Beef Short Ribs melted in my mouth, and the staff&apos;s recommendations were spot on. Will be back every time I&apos;m in Newark.",
       rating: 5
     }
   ];
@@ -59,7 +59,7 @@ const Testimonials = () => {
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">What Our Guests Say</h2>
           <p className="text-lg text-gray-300 max-w-3xl mx-auto">
-            Don't just take our word for it. Here's what our valued guests have to say about their dining experience at VONDA'S KITCHEN.
+            Don&apos;t just take our word for it. Here&apos;s what our valued guests have to say about their dining experience at VONDA&apos;S KITCHEN.
           </p>
         </div>
 
@@ -70,7 +70,7 @@ const Testimonials = () => {
                 {renderStars(testimonial.rating)}
               </div>
               <blockquote className="text-lg italic mb-4">
-                "{testimonial.content}"
+                &quot;{testimonial.content}&quot;
               </blockquote>
               <div className="font-medium">
                 <span className="block text-vondas-red">{testimonial.name}</span>

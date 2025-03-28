@@ -61,7 +61,7 @@ export default function Contact() {
         <div className="absolute inset-0 z-0">
           <Image 
             src="/images/v9.webp" 
-            alt="Contact VONDA'S KITCHEN"
+            alt="Contact VONDA&apos;S KITCHEN"
             fill
             priority
             className="object-cover brightness-[0.6]"

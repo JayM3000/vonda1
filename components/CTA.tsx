@@ -22,8 +22,8 @@ const CTA = () => {
           </h2>
           
           <p className="text-lg mb-8">
-            Whether you're looking for a delicious breakfast, a business lunch, or an elegant dinner, 
-            VONDA'S KITCHEN is your destination for exceptional food served with warmth and style.
+            Whether you&apos;re looking for a delicious breakfast, a business lunch, or an elegant dinner, 
+            VONDA&apos;S KITCHEN is your destination for exceptional food served with warmth and style.
           </p>
           
           <div className="flex flex-wrap gap-4 justify-center">
